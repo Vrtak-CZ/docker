@@ -7,6 +7,7 @@ RUN apt-get install git libfcgi-dev libfcgi0ldbl libjpeg62-turbo-dbg libmcrypt-d
 
 # Install extensions
 RUN docker-php-ext-install bz2
+RUN docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ 
 RUN docker-php-ext-install gd
 RUN docker-php-ext-install gettext
 RUN docker-php-ext-install intl
