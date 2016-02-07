@@ -1,6 +1,4 @@
 # Vrtak-CZ docker files
 
 Contains:
-- (nginx-php)[https://github.com/Vrtak-CZ/docker/frameworks/nginx-php]
-- (nginx-php-composer)[https://github.com/Vrtak-CZ/docker/frameworks/nginx-php-composer]
-- (nette-sandbox)[http://github.com/Vrtak-CZ/docker/applications/nette-sandbox]
+- (php)[https://github.com/Vrtak-CZ/docker/tree/masterphp]
